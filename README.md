@@ -1,5 +1,7 @@
 # RootEnforcer
 
+<img src="https://img.shields.io/badge/Contact-Telegram-blue?style=for-the-badge&logo=telegram" alt="Telegram">
+
 **RootEnforcer** is a lightweight LSPosed module designed to force specific Android applications to trigger a Superuser (root) permission request upon launch.
 
 Many system-level apps or custom utilities require root access to function correctly but lack the internal code logic to explicitly request it. This module resolves that issue by hooking into the application's lifecycle and executing a `su` command, thereby forcing the Magisk/KernelSU manager to display the permission prompt to the user.
@@ -44,5 +46,3 @@ This module hooks into `android.app.Application#onCreate`. When the hooked appli
 
 ```kotlin
 Runtime.getRuntime().exec("su")
-
-<img src="https://img.shields.io/badge/Contact-Telegram-blue?style=for-the-badge&logo=telegram" alt="Telegram">
