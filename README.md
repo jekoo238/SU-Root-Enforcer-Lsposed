@@ -21,7 +21,7 @@ Many system-level apps or custom utilities require root access to function corre
 
 ## 🛠 Installation
 
-1. **Download:** Get the latest `.apk` from the [Releases](https://github.com/yourusername/RootEnforcer/releases) page.
+1. **Download:** Get the latest `.apk` from the [Releases](https://github.com/jekoo238/SU-Root-Enforcer-Lsposed/releases/tag/V1.0) page.
 2. **Install:** Install the APK on your Android device.
 3. **Activate:**
     * Open the **LSPosed Manager** app.
